@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaPluginProjectSettings">
+    <option name="entityNameTemplate" />
+    <option name="isLombokToString" value="true" />
+    <option name="useLazyOnToOneAssociations" value="true" />
+    <option name="scaffoldingLanguage" />
+  </component>
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit name="formula1db" persistenceXmlPath="src/main/resources/META-INF/persistence.xml">
+        <packages>
+          <package value="com.a22rubenvp.formula1db.model.entities" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
